@@ -1,0 +1,35 @@
+{
+	"name": "imitor/imitor",
+	"type": "project",
+	"description": "",
+	"keywords": [],
+	"homepage": "https://github.com/tristanmills/Imitor",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tristan Mills",
+			"email": "tristanmills11@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/tristanmills/Colligo"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/tristanmills/Reconcilio"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/tristanmills/Utilitas"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"slim/slim": "2.*",
+		"imitor/colligo": "dev-master",
+		"imitor/reconcilio": "dev-master",
+		"imitor/utilitas": "dev-master"
+	}
+}
